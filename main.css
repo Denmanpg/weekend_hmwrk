@@ -1,0 +1,80 @@
+body {
+    background-color: #A2DED0;
+}
+
+.jumbotron {
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo6ImZyPRaCoWzC7Hvv3j3Cbax2Uc-jE6fG6gnOmBhj4j8PIXRmg);
+    padding: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: -40px;
+    background-attachment: fixed;
+    background-position:  center -238px;
+}
+
+.jumbotron h1 {
+    position: absolute;
+    padding-left: 20px;
+    color: #F7FAFE;
+    text-align: center;
+    margin:-40px 0px 0px -40px;
+}
+
+.mission
+ {
+    background-color: #323232;
+    color: #f7fafe;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+
+.mission h3 {
+    font-family: 'Raleway' 'sans-serif';
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.feautures{
+    padding: 5% 0;
+}
+.features p {
+    font-family: 'Muli' 'sans-serif';
+    text-align: center;
+    color: #323232;
+    font-size: 1.2 em;
+    padding-top: 20%;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    height: auto;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 2%;
+    float: right;
+}
+
+footer p {
+    float: left;
+    padding: 2%;
+}
+
+footer a,
+footer p {
+    color: #fff;
+    vertical-align: middle;
+}
+
+/*** Meida qUERIES */
+@media screen and (max-width: 776px) {
+    .features img {
+        max-width: 90%;
+        margin: auto;
+    }
+}
